@@ -156,7 +156,6 @@ public class LottoNezetController implements Initializable {
     
     
     private void resultCheck(ArrayList<Integer> userNumbers){
-         
         int result = 0;
         for(int i=0;i<userNumbers.size();i++){
             if(userNumbers.get(i) == genNum1 || userNumbers.get(i) == genNum2 || userNumbers.get(i) == genNum3 || userNumbers.get(i) == genNum4 || userNumbers.get(i) == genNum5)
